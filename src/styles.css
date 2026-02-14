@@ -1,0 +1,38 @@
+/* styles.css */
+* {
+    font-family: "Vend Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+body {
+    background-color: #eedcc6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 1em;
+}
+
+#container {
+    background-color: #ddccb8;
+    width: 40rem;
+    height: 40rem;
+}
+
+#inputContainer {
+    display: flex;
+    gap: 0.5em;
+}
+
+
+#fetchWeather {
+    background-color: white;
+    padding: 0.1em;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #A4A4A4;
+    border-radius: 5px;
+}
